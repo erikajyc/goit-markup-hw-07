@@ -155,7 +155,7 @@ h2 {
     color: var(--white);
     background-color: var(--navyblue);
     flex-shrink: 0;
-    height: 312px;
+    /* height: 312px; */
 }
 
 .footer-caption {
@@ -927,7 +927,7 @@ textarea:focus  {
     .address-list {
         display: none;
     }
-  }
+  
 
   .header {
     padding: 0px;
@@ -940,9 +940,8 @@ textarea:focus  {
     height: 70px;
   }
 
-  .hero h1 {
+  .hero-slogan {
     display: block;
-    max-width: 320px;
     font-weight: 700px;
     font-size: 36px;
     line-height: 1.11;
@@ -1033,3 +1032,9 @@ textarea:focus  {
   .subscribe-button {
     margin: 0 auto;
   }
+
+  .services {
+    display: none;
+  }
+  }
+
