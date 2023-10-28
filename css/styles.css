@@ -1040,7 +1040,6 @@ textarea:focus  {
 .mobile-social-media-icon-svg {
     height: 24px;
     width: 24px;
-    margin: 16px;
 }
 
 .mobile-social-media-link:hover,
@@ -1258,5 +1257,10 @@ textarea:focus  {
    .footer-container {
     padding-left: 108px;
     gap: 24px;
+   }
+
+   .address-list {
+    display: flex;
+    flex-direction: column;
    }
 }
